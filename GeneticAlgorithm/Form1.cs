@@ -13,6 +13,8 @@ namespace GeneticAlgorithm
     {
         public Form1()
         {
+            Generator generator = new Generator();
+            generator.GenerateData();
             InitializeComponent();
         }
     }

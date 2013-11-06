@@ -10,7 +10,7 @@ namespace GeneticAlgorithm
         public const int MaxCount = 100;
         public const int CategoryCount = 10;
         public const int ArticlesCount = 10;
-        private ShopDbEntities _dataBase = new ShopDbEntities();
+        private readonly ShopDbEntities _dataBase = new ShopDbEntities();
         
         public void GenerateData()
         {
